@@ -1,0 +1,488 @@
+/******typography***********/
+@import url('https://fonts.maateen.me/charukola-ultra-light/font.css');
+
+
+@import url('https://fonts.maateen.me/adorsho-lipi/font.css');
+
+/****font-family: 'AdorshoLipi', sans-serif;
+*****/
+*{
+	margin:0px;
+	padding:0px;
+}
+
+body{
+	
+	background:url("Gaibandha/bangladesh-human-flag-horizontal-large-gallery.jpg");
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+
+.floatlet{
+	float:left;
+}
+.floatright{
+	float:right;
+}
+a{
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:underline;
+}
+ul{
+	list-style-type:none;
+}
+.fix{
+	overflow:hidden;
+	display:block;
+}
+.full_wrap{
+	width:100%;
+}
+
+
+/*******header style******/
+
+.wrap header{
+	background-image: linear-gradient(to right top, #e76ba9, #d766b6, #c165c3, #a465ce, #7f68d8, #5d6bd1, #396bc7, #006aba, #006499, #005a75, #214d55, #343e3e);
+	height:100px;
+	border-bottom:3px solid #3b3f3b;
+}
+.wrap header h1{
+	float:left;
+	color: #fff;
+	margin-left: 46px;
+	margin-top: 30px;
+	font-family: 'AdorshoLipi', sans-serif;
+}
+.wrap header img{
+	float:left;
+	padding:10px;
+}
+.wrap header input{
+	float:right;
+	height:20px;
+	float: right;
+	height: 31px;
+	margin-top: 58px;
+	width: 229px;
+	padding: 5px;
+	border: 1px solid #2F2D2E;
+	border-radius:3px; 
+}
+.wrap header input[type="submit"]{
+	width: 58px;
+	padding: 5px;
+	background:green;
+	margin-right: 10px;
+    margin-left: 5px;
+    border: 1px solid #2F2D2E;
+	border: 1px solid #2F2D2E;
+	font-weight: bold;
+	color: #fff;
+	font-family: gerogia;
+	border-radius:3px;
+	-webkit-transition:all .3s ease;
+	-moz-transition:all .3s ease;
+	transition:all .3s ease;
+}
+.wrap header input[type="submit"]:hover{
+	border:1px solid #ddd;
+}
+
+
+/********nav style*************/
+
+.nav li a img{
+	height:34px;
+	width:42px;
+	margin-left: -13px;
+    margin-top: -6px;
+}
+.nav li a img:hover{
+	background:#000;
+}
+.nav{
+	background-image: linear-gradient(to right top, #e76ba9, #d766b6, #c165c3, #a465ce, #7f68d8, #5d6bd1, #396bc7, #006aba, #006499, #005a75, #214d55, #343e3e);
+	height:39px;
+	border-bottom:2px solid #ffffff7a;
+}
+.nav li:last-child{
+	border-right:none;
+}
+.nav li{
+	float:left;
+	position:relative;
+	border-right:1px solid #ffffff7a;
+}
+
+#color1:hover{
+	background:green;
+	color:#fff;
+	text-decoration:none;
+}
+
+#color:hover{
+	background:#C40A2A;
+	color:#fff;
+	text-decoration:none;
+}
+
+#color2:hover{
+	background:#84154D;
+	color:#fff;
+	text-decoration:none;
+}
+
+#color3:hover{
+	background:#098346;
+	color:#fff;
+	text-decoration:none;
+}
+
+#color4:hover{
+	background:#1399BE;
+	color:#fff;
+	text-decoration:none;
+}
+#color5:hover{
+	background:#8768DE;
+	color:#fff;
+	text-decoration:none;
+}
+#color6:hover{
+	background:#ddd;
+	color:#000;
+	text-decoration:none;
+}
+.nav li a{
+	display:block;
+	color:#fff;
+	padding:10px 16px;
+	transition:.3s ease;
+	font-family:georgia;
+}
+.nav li a:hover{
+	color:#000;
+}
+
+
+/********nivo slider style ********/
+.slider-wrapper{
+	margin-bottom:5px;
+}
+.theme-bar .nivo-controlNav{
+	background:#00000075;
+}
+
+
+/*****content left style******/
+.notice img{
+	height: 62px;
+    width: 62px;
+    padding: 5px;
+	float:left;
+}
+.notice{
+	background-image: linear-gradient(to right top, #aeccd2, #c3d6e0, #d8e1ea, #ebedf2, #fafafa);
+	height:220px;
+	border:1px solid #88968dfa;
+	padding:8px;
+}
+.notice ul li a{
+	color:#222522;
+	line-height:25px;
+	font-size:14px;
+}
+#acr{
+	background-image: linear-gradient(to right top, #2e282b, #342e33, #3a353c, #3f3c45, #43444e, #474c58, #4a5561, #4d5e6a, #516a75, #56777f, #5c8387, #65908d);
+	float:right;
+	display:block;
+	color:white;
+	margin-top:187px;
+	padding:3px;
+	font-size:14px;
+}
+#acr:hover, #acrn:hover{
+	border:1px solid black;
+	text-decoration:none;
+}
+.notice ul{
+	margin-right:10px;
+	float:left;
+	margin-top: 53px;
+    margin-left: -87px;
+	
+}
+.notice p{
+	margin-right:10px;
+	float:left;
+	font-size:20px;
+	color:#3b3f3b;
+    margin-top: 20px;
+    margin-left: 7px;
+}
+
+.content_left{
+	width:700px;
+	float:left;
+	margin-right:20px;
+}
+
+
+
+/****content_left-news style******/
+.news{
+	background-image: linear-gradient(to right top, #aeccd2, #c3d6e0, #d8e1ea, #ebedf2, #fafafa);
+	height:68px;
+	border:1px solid #88968dfa;
+	padding:8px;
+	margin-top:15px;
+}
+
+.news p{
+	font-weight:bold;
+	float:left;
+	color:#3b3f3b;
+	margin-top: 10px;
+}
+
+.news a{
+	float:left;
+	color:#222522;
+	margin-left: 5px;
+	margin-top: 10px;
+}
+#acrn{
+	background-image: linear-gradient(to right top, #2e282b, #342e33, #3a353c, #3f3c45, #43444e, #474c58, #4a5561, #4d5e6a, #516a75, #56777f, #5c8387, #65908d);
+	float:right;
+	display:block;
+	color:white;
+	padding:3px;
+	font-size:14px;
+	margin-top:41px;
+}
+
+
+
+/******duel content style******/
+.duel_contentA{
+	background-image: linear-gradient(to right top, #aeccd2, #c3d6e0, #d8e1ea, #ebedf2, #fafafa);
+	height: 125px;
+	border:1px solid #88968dfa;
+	margin-top:15px;
+	width: 317px;
+    float: left;
+    margin-right: 15px;
+	padding:10px;
+}
+.duel_contentA p, .duel_contentB p{
+	margin-bottom: 5px;
+	font-size: 17px;
+	color:#3b3f3b;
+}
+.duel_contentA img, .duel_contentB img{
+	height:90px;
+	width:90px;
+	float:left;
+}
+.duel_contentA ul, .duel_contentB ul{
+	float:left;
+	margin-left:10px;
+    margin-top:6px;
+}
+
+
+.duel_contentA ul li a, .duel_contentB ul li a{
+	font-size:13px;
+	color:#222522;
+	display:block;
+}
+
+
+.duel_contentB{
+	background-image: linear-gradient(to right top, #aeccd2, #c3d6e0, #d8e1ea, #ebedf2, #fafafa);
+	height: 125px;
+	border:1px solid #88968dfa;
+	margin-top:15px;
+	width: 317px;
+    float: left;
+	padding:10px;
+}
+
+
+
+
+
+/*****content_right sytle*******/
+.content_right{
+	background:#FFEBFF;
+	width:300px;
+	float:left;
+}
+
+.partA a, .partB a, .partD a{
+	margin-left: 8px;
+	float:left;
+	font-size:13px;
+	font-weight:bold;
+	margin-top: 5px;
+	-webkit-transition:all .3s ease;
+	transition:all .3s ease;
+}
+.partA a:hover, .partB a:hover, .partD a:hover{
+	text-decoration:none;
+	color:#222522;
+}
+.partA, .partB, .partD, .partF{
+	background:url("Gaibandha/title-background-noon-1-01.png");
+	background-size:318px 53px;;
+    background-repeat: no-repeat;
+	padding:5px;
+	height:30px;
+	border:1px solid #88968dfa;
+	
+}
+.partA img, .partB img, .partD img, .partF img{
+	height:30px;
+	width:30px;
+	float:left;
+}
+
+.partB{
+	margin-top:5px;
+}
+
+.partC table{
+	border:2px solid #88968dfa;
+	padding:5px;
+	margin-top:15px;
+	background-image: linear-gradient(to right top, #e76ba9, #d766b6, #c165c3, #a465ce, #7f68d8, #5d6bd1, #396bc7, #006aba, #006499, #005a75, #214d55, #343e3e);
+}
+.partC table td:last-child{
+	border-right:none;
+}
+.partC table td{
+	border-right:1px solid black;
+	padding: 5px 19px;
+	color:white;
+	font-size:12px;
+	font-weight:bold;
+}
+
+.partD p, .partF p{
+	margin-left: 8px;
+	float:left;
+	font-size:13px;
+	font-weight:bold;
+	margin-top: 5px;
+	color:#1818a4;
+}
+
+.partD{
+	margin-top:15px;
+}
+
+.partE{
+	padding:10px;
+	
+}
+.partE ul li a{
+	line-height:2em;
+	color:#222522;
+	font-size:14px;
+}
+.partE ul{
+	list-style-type:square;
+	color:green;
+	margin-left:20px;
+	
+}
+
+.partG{
+	padding:10px;
+	display:inline-block;
+}
+
+.partG ul li {
+	float:left;
+	padding:5px;
+}
+
+.partG ul li img{
+	height:50px;
+	width:50px;
+}
+
+.partf{
+	background:#46bd46;
+	
+}
+.partf p{
+	color:#fff;
+}
+.partH{
+	margin-top:5px;
+}
+.partH audio{
+	border-radius:5px;
+	background:#d2baba;
+	height:40px;
+}
+
+.partI p{
+	margin-left:10px;
+	margin-bottom:10px;
+	color:#1d1d92;
+}
+.partI {
+	margin-top:15px;
+}
+.partI iframe{
+	width:300px;
+	height:200px;
+}
+
+
+/********footer sytle******/
+footer{
+	border-top:10px solid #796565;
+	background:url("Gaibandha/footerbg.png");
+	height:77px;
+    background-size: 1024px 109px;
+    background-repeat: no-repeat;
+	padding:10px;
+}
+.footer_left p{
+	color:#1c1f1c;
+	font-size:13px;
+
+}
+
+.footer_right p{
+	color:#1c1f1c;
+	font-size:13px; 
+
+ }
+ 
+ 
+.footer_left{
+	float:left;
+
+}
+.footer_right{
+	float:right;
+
+}
+.footer2{
+    text-align: center;
+    margin-top: 65px;
+    font-weight: bold;
+    color: #2f2929;
+}
+
+
+
+
+
